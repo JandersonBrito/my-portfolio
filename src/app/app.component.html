@@ -1,19 +1,19 @@
-<div class="container">
-  <div class="row firstCard">
+<div class="container card">
+  <div class=" row firstCard ">
     <div class="photo col-md-4">
       <div class="photo">
         <img src="../assets/myphoto.jpg" class="myphoto" alt="myPhoto">
       </div>
     </div>
     <div class="details col-md-8">
-      <div class="card text-center">
+      <div class="text-center">
         <div class="card-header">
           <ul class="nav nav-tabs card-header-tabs">
             <li class="nav-item">
               <a class="nav-link active" href="#home" role="tab" data-toggle="tab">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects" role="tab" data-toggle="tab">Portfolio</a>
+              <a class="nav-link " href="#projects" role="tab" data-toggle="tab">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact" role="tab" data-toggle="tab">Contact</a>
@@ -31,57 +31,60 @@
 
               <p> When I'm not making games, I'm studing French, Angular, React, NestJS, also playing Magic The
                 Gathering, Dead By Daylight and Lord of The Rings Online </p>
-              <a href="">Resume</a>
+              <a href="">Resume</a> <i class="fas fa-user"></i> 
             </div>
-            <div role="tabpanel" class="tab-pane" id="projects">
+            <div role="tabpanel" class="tab-pane fade in" id="projects">
               <div class="row">
                 <div class="col-md-6 col-lg-4">
-                  <div class="card scale-on-hover" style="width: 15rem;">
-                    <img src="../assets/01.png" class="card-img-top" alt="">
+                  <div class="card bg-white text-white card-portfolio">
+                    <img class="card-img" src="../assets/01.png" alt="Card image">
                   </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
-                  <div class="card scale-on-hover" style="width: 15rem;">
-                    <img src="../assets/01.png" class="card-img-top" alt="">
+                  <div class="card scale-on-hover card-portfolio">
+                    <img src="../assets/01.png" class="card-img" alt="">
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                  <div class="card scale-on-hover" style="width: 15rem;">
-                    <img src="../assets/01.png" class="card-img-top" alt="">
+                  <div class="card scale-on-hover card-portfolio">
+                    <img src="../assets/01.png" class="card-img" alt="">
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-6 col-lg-4">
-                  <div class="card scale-on-hover" style="width: 15rem;">
-                    <img src="../assets/01.png" class="card-img-top" alt="">
+                  <div class="card scale-on-hover card-portfolio">
+                    <img src="../assets/01.png" class="card-img" alt="">
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                  <div class="card scale-on-hover" style="width: 15rem;">
-                    <img src="../assets/01.png" class="card-img-top" alt="">
+                  <div class="card scale-on-hover card-portfolio">
+                    <img src="../assets/01.png" class="card-img" alt="">
                   </div>
                 </div>
               </div>
+              <div class="row">
+                <i class="fas fa-user"></i> 
+              </div>
             </div>
 
-            <div role="tabpanel" class="tab-pane" id="contact">
+            <div role="tabpanel" class="tab-pane fade in" id="contact">
               <h3>Do you have an idea? Let's work on then!</h3>
-              <form>
+              <form action="mailto:j.a.brito@live.com" method="post" enctype="text/plain">
                 <div class="form-row">
                   <div class="col">
                     <input type="name" class="form-control" placeholder="Name">
                   </div>
                   <div class="col">
-                    <input type="email" class="form-control" placeholder="Email">
+                    <input type="mail" class="form-control" placeholder="E-mail">
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="Textarea">Mensage</label>
                   <textarea class="form-control" id="Textarea" rows="3"></textarea>
                 </div>
-                <button type="button" class="btn btn-primary">Send</button>
+                <button type="button" type="submit" class="btn btn-primary">Send</button>
               </form>
             </div>
           </div>
